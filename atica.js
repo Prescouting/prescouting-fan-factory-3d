@@ -1,5 +1,5 @@
-import * as THREE from '../three.module.js';
-import { GLTFLoader } from '../GLTFLoader.js';
+import * as THREE from './three.module.js';
+import { GLTFLoader } from './GLTFLoader.js';
 const $=id=>document.getElementById(id);
 const canvas=$('character');
 const renderer=new THREE.WebGLRenderer({canvas,antialias:true,powerPreference:'high-performance'});
