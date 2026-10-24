@@ -1,0 +1,15 @@
+PRESCOUTING FAN FACTORY — 3D STUDIO CHARACTER PROTOTYPE
+Assembled 2026-10-24 for interactive browser preview.
+
+Generator / rigging: Ara 3D Gen by olatunde85/3d-gen, MIT-licensed software.
+Base body topology, human morphs and system clothing assets: MakeHuman Community, CC0 1.0.
+Skull: Detailed Skull with Articulated Jaw, Innerscene 3D library, CC0 1.0.
+Animation: Ara 3D Gen Idle, Wave, Cheer and Laugh keyframed animations; the Walk action is retargeted from the CMU Graphics Lab Motion Capture Database, whose motion files may be used commercially but may not be resold on their own.
+The finished characters use distinct body meshes and independently weighted skull meshes with 66-bone humanoid rigs.
+The characters are functional art prototypes, not certified sponsor-ready clothing product visualizations.
+No official football club marks, branded sportswear or logos are embedded in these models.
+Sources:
+- https://github.com/olatunde85/3d-gen
+- https://www.makehumancommunity.org/
+- https://www.innerscene.com/tools/library/3d-parts/detailed-skull-with-articulated-jaw-41eaf6b4
+- https://mocap.cs.cmu.edu/
