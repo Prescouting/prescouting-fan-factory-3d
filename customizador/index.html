@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover"><title>PRESCOUTING | FAN FACTORY — Personaliza tu fan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./studio.css"></head><body>
+<header><div class="brand"><span class="emblem">♛</span><div><strong>PRESCOUTING</strong><small>FAN FACTORY / ATELIER 3D</small></div></div><span class="status"><i></i> PROTOTIPO INTERACTIVO</span></header>
+<main><section class="intro"><div><div class="eyebrow">LA GRADA / CREA TU IDENTIDAD</div><h1>TU ESQUELETO.<br><em>TU ESTILO.</em></h1><p>Dos personajes base · veinte looks inspirados en la colección · combina peinados, gorros, gafas y accesorios a tu gusto.</p></div><div class="counter"><span>02</span><small>BASES<br>3D REALES</small></div></section>
+<div class="layout"><section class="stage"><div class="stagebar"><span><i class="live"></i> PERSONAJE 3D ARTICULADO</span><span id="loading">CARGANDO ÁTICA…</span></div><canvas id="canvas"></canvas>
+<div class="characterStamp"><span id="stampNum">PERSONAJE 01 / 02</span><strong id="stampName">ÁTICA</strong><small id="stampLook">EDICIÓN MARFIL</small></div>
+<div class="stageHints"><span>ARRASTRA PARA GIRAR · RUEDA PARA ZOOM</span><button id="spin" type="button">⟳ ROTACIÓN: ON</button></div>
+<div class="actions"><button data-action="Idle" class="on">● RESPIRAR</button><button data-action="Wave">✋ SALUDAR</button><button data-action="Cheer">🙌 CELEBRAR</button><button data-action="Walk">➜ CAMINAR</button><button data-action="Laugh">☺ REACCIONAR</button></div>
+</section><aside class="side"><div class="panel"><div class="sectionhead"><b>01</b><span>ELIGE TU BASE</span></div><div class="bases"><button type="button" data-base="atica" class="selected"><span>♀</span><strong>ÁTICA</strong><small>BASE FEMENINA</small></button><button type="button" data-base="vesper"><span>♂</span><strong>VESPER</strong><small>BASE MASCULINA</small></button></div></div>
+<div class="panel"><div class="sectionhead"><b>02</b><span>PRUEBA LOS 20 ESTILOS</span></div><div id="presets" class="presets"></div></div>
+<div class="panel"><div class="sectionhead"><b>03</b><span>PERSONALIZA</span></div>
+<label for="outfit">COLORES DE ROPA</label><div class="swatches" id="outfits"></div>
+<label for="hair">PEINADO</label><div id="hairs" class="options"></div>
+<label for="hat">GORROS Y GORRAS</label><div id="hats" class="options"></div>
+<label for="eyewear">GAFAS</label><div id="eyewear" class="options"></div>
+<label for="accessory">COMPLEMENTOS</label><div id="accessories" class="options"></div></div>
+<div class="panel footer-panel"><button type="button" id="random">⚄ SORPRÉNDEME</button><button type="button" id="reset">↺ RESTAURAR LOOK</button><p>Este es un probador funcional de identidad y accesorios. Las variantes de color no sustituyen todavía las mallas completas de camisetas, chaquetas o pantalones.</p></div></aside></div>
+<footer><strong>♛ PRESCOUTING</strong><span>PREVIEW · SIN CAMBIOS EN LA WEB PRINCIPAL</span></footer></main><script type="module" src="./studio.js"></script></body></html>
