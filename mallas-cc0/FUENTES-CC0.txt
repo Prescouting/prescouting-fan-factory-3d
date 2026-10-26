@@ -1,0 +1,11 @@
+PRESCOUTING FAN FACTORY / BASES ANATÓMICAS CC0
+Fecha: 2026-10-26
+Estas mallas son bases técnicas y NO son los personajes Ática y Vesper terminados.
+Recursos base:
+1. Full adult skeleton, standing (CC0) - Innerscene original:
+https://www.innerscene.com/tools/library/3d-parts/full-adult-skeleton-standing-ade55011
+2. Human base mesh with editable 53-bone rig (CC0, MakeHuman/MPFB):
+https://www.innerscene.com/tools/library/3d-parts/human-base-mesh-with-editable-53-bone-rig-8e7c8ab1
+3. Male base mesh 3D person rigged A-pose (CC0, adapted from MakeHuman):
+https://www.innerscene.com/tools/library/3d-parts/male-base-mesh-3d-person-rigged-a-pose-380e6d89
+Los GLB contienen la malla anatómica y la armadura. Los .blend contienen, además, proxies y prendas de trabajo ocultos. No se han validado animaciones finales.
