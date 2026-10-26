@@ -68,5 +68,5 @@ c.addEventListener('pointercancel',()=>drag=null);
 c.addEventListener('wheel',e=>{e.preventDefault();targetZoom=Math.max(1.8,Math.min(6.3,targetZoom+e.deltaY*.003))},{passive:false});
 window.addEventListener('resize',()=>{size();draw()});
 function frame(t){if(t-last<65){requestAnimationFrame(frame);return} const dt=Math.min(.12,(t-last)/1000);last=t;if(rotating&&!drag)targetYaw+=dt*.13;const oy=yaw,oz=zoom;yaw+=(targetYaw-yaw)*Math.min(1,dt*8);zoom+=(targetZoom-zoom)*Math.min(1,dt*8);turntable.rotation.y=yaw;if(actor&&(rotating||Math.abs(oy-yaw)>.0002||Math.abs(oz-zoom)>.0002))draw();requestAnimationFrame(frame)}
-size();choose('atica');requestAnimationFrame(frame);
+size();choose(new URLSearchParams(window.location.search).get('character')==='vesper'?'vesper':'atica');requestAnimationFrame(frame);
 setInterval(()=>{if(actor&&document.visibilityState==='visible')draw()},1200);
