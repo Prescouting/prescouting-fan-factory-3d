@@ -30,7 +30,7 @@ async function choose(who){
  $('choose-atica').classList.toggle('active',who==='atica');
  $('choose-vesper').classList.toggle('active',who==='vesper');
  $('loading').textContent='CARGANDO '+who.toUpperCase();
- $('reference').src='./'+who+'-reference.jpg';
+ // 3D-only mode: no reference images are downloaded or displayed.
  $('details').textContent=who==='atica'?'Ática: siete grupos independientes — gorro, melena, cráneo, brazos, top, cargo y zapatillas. Pose original, aún sin rigging funcional.':'Vesper: seis grupos — pelo, cráneo, brazos, hoodie, cargo y zapatillas. Pose original, aún sin rigging funcional.';
  $('dlglb').href='./'+who+'.glb';
  $('dlglb').textContent='Descargar '+who.toUpperCase()+' · GLB editable';
